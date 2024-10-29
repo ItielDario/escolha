@@ -179,7 +179,7 @@ body {
     .btn-mudar-1 { position: absolute; top: 80vh; left: 50vw; }
     .btn-mudar-5 { position: absolute; top: 10vh; left: 50vw; }
     .btn-mudar-8 { position: absolute; top: 85vh; left: 50vw; }
-    .btn-mudar-9 { position: absolute; top: 5vh; left: 50vw; }
+    .btn-mudar-9 { position: absolute; top: 5vh; left: 48vw; }
 
     .btn-mudar, .btn-estatico, .btn-mudar-1, .btn-mudar-2, .btn-mudar-3, .btn-mudar-4, .btn-mudar-5, .btn-mudar-6, .btn-mudar-7, .btn-mudar-8, .btn-mudar-9, .btn-mudar-10 {
         font-size: 8vw;
@@ -214,6 +214,17 @@ body {
 
     .popup img {
         width: 50vw; /* Ajuste o tamanho da imagem conforme necessário */
+        margin-bottom: 4vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .img-luffy-feliz {
+        width: 80vw;
+    }
+
+    .popup img {
+        width: 80vw; /* Ajuste o tamanho da imagem conforme necessário */
         margin-bottom: 4vw;
     }
 }
