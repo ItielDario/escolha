@@ -185,6 +185,7 @@ body {
         font-size: 8vw;
         padding: 2vw 4vw;
         margin-left: 1vw;
+        border-radius: 2vw;
     }
 
     .mensagem-final {
@@ -201,7 +202,7 @@ body {
 
     .popup-content {
         padding: 10vw 3vw;
-        width: 90vw;
+        width: 85vw;
     }
 
     .popup-content p {
@@ -216,15 +217,29 @@ body {
         width: 50vw; /* Ajuste o tamanho da imagem conforme necessário */
         margin-bottom: 4vw;
     }
+
+    .close-btn {
+        font-size: 5vw;
+    }
 }
 
 @media (max-width: 480px) {
+    .btn-mudar, .btn-estatico{
+        margin-left: 3vw;
+        
+    }
+
     .img-luffy-feliz {
         width: 80vw;
     }
 
     .popup img {
-        width: 80vw; /* Ajuste o tamanho da imagem conforme necessário */
+        width: 70vw; /* Ajuste o tamanho da imagem conforme necessário */
         margin-bottom: 4vw;
+        margin: 5vw 0;
+    }
+
+    .close-btn {
+        font-size: 12vw;
     }
 }
