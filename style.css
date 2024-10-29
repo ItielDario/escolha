@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+}
+
+.container-principal{
+    color: white;
+}
+
+.title{
+    font-size: 3vw;
+}
+
+.buttons{
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.btn-mudar, .btn-mudar-1, .btn-mudar-2, .btn-mudar-3, .btn-mudar-4, .btn-mudar-5, .btn-mudar-6, .btn-mudar-7, .btn-mudar-8, .btn-mudar-9, .btn-mudar-10{
+    background-color: transparent;
+    border: 0.2vw solid #ff8c00; /* Laranja */
+    color: #ff8c00;
+    padding: 1vw 2.5vw;
+    font-size: 2vw;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    border-radius: 0.5vw;
+    box-shadow: 0 0 0.5vw #ff8c00, 0 0 10px #ff8c00, 0 0 15px #ff8c00;
+}
+
+.btn-estatico {
+    background-color: transparent;
+    border: 0.2vw solid #32cd32; /* Verde */
+    color: #32cd32;
+    padding: 1vw 2.5vw;
+    font-size: 2vw;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    border-radius: 0.5vw;
+    box-shadow: 0 0 0.5vw #32cd32, 0 0 10px #32cd32, 0 0 15px #32cd32;
+}
+
+.btn-mudar:hover, .btn-mudar-1:hover, .btn-mudar-2:hover, .btn-mudar-3:hover, .btn-mudar-4:hover, .btn-mudar-5:hover, .btn-mudar-6:hover, .btn-mudar-7:hover, .btn-mudar-8:hover, .btn-mudar-9:hover, .btn-mudar-10:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #ff8c00, 0 0 20px #ff8c00, 0 0 30px #ff8c00; 
+}
+
+.btn-estatico:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #32cd32, 0 0 20px #32cd32, 0 0 30px #32cd32; 
+}
+
+.btn-mudar-1, .btn-mudar-2, .btn-mudar-3, .btn-mudar-4, .btn-mudar-5, .btn-mudar-6, .btn-mudar-7, .btn-mudar-8, .btn-mudar-9, .btn-mudar-10{
+    display: none;
+}
+
+.btn-mudar-1{
+    position: absolute;
+    top: 60vh;
+    left: 70vw;
+}
+
+.btn-mudar-2{
+    position: absolute;
+    top: 65vh;
+    left: 7vw;
+}
+
+.btn-mudar-3{
+    position: absolute;
+    top: 20vh;
+    left: 40vw;
+}
+
+.btn-mudar-4{
+    position: absolute;
+    top: 25vh;
+    left: 10vw;
+}
+
+.btn-mudar-5{
+    position: absolute;
+    top: 10vh;
+    left: 80vw;
+}
+
+.btn-mudar-6{
+    position: absolute;
+    top: 75vh;
+    left: 50vw;
+}
+
+.btn-mudar-7{
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+}
+
+.btn-mudar-8{
+    position: absolute;
+    top: 85vh;
+    left: 80vw;
+}
+
+.btn-mudar-9{
+    position: absolute;
+    top: 5vh;
+    left: 62vw;
+}
+
+.btn-mudar-10{
+    position: absolute;
+    top: 80vh;
+    left: 25vw;
+}
+
+.mensagem-final{
+    display: none;
+    color: white;
+    flex-direction: column;
+    font-size: 2vw;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    border: 0.2vw solid white;
+    border-radius: 0.5vw;
+    padding: 3vw;
+}
+
+.img-luffy-feliz{
+    width: 20vw;
+}
+
+.popup {
+    display: none; /* Inicialmente escondido */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro */
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: black;
+    border: 0.2vw solid #32cd32; /* Verde */
+    color: white;
+    padding: 1vw 2.5vw;
+    font-size: 2vw;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    border-radius: 0.5vw;
+    box-shadow: 0 0 0.5vw #32cd32, 0 0 10px #32cd32, 0 0 15px #32cd32;
+    padding: 4vw;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.popup img {
+    width: 15vw; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+    margin-bottom: 2vw;
+}
+
+.popup-content p{
+    font-size: 2vw;
+}
+
+.close-btn {
+    position: absolute;
+    top: 1vw;
+    right: 1.5vw;
+    font-size: 3vw;
+    cursor: pointer;
+}
