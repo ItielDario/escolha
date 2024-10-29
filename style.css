@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: black;
     display: flex;
     justify-content: center;
@@ -15,15 +15,15 @@ body{
     font-weight: 500;
 }
 
-.container-principal{
+.container-principal {
     color: white;
 }
 
-.title{
+.title {
     font-size: 3vw;
 }
 
-.buttons{
+.buttons {
     margin-top: 2vw;
     display: flex;
     align-items: center;
@@ -31,7 +31,7 @@ body{
     gap: 2vw;
 }
 
-.btn-mudar, .btn-mudar-1, .btn-mudar-2, .btn-mudar-3, .btn-mudar-4, .btn-mudar-5, .btn-mudar-6, .btn-mudar-7, .btn-mudar-8, .btn-mudar-9, .btn-mudar-10{
+.btn-mudar, .btn-mudar-1, .btn-mudar-2, .btn-mudar-3, .btn-mudar-4, .btn-mudar-5, .btn-mudar-6, .btn-mudar-7, .btn-mudar-8, .btn-mudar-9, .btn-mudar-10 {
     background-color: transparent;
     border: 0.2vw solid #ff8c00; /* Laranja */
     color: #ff8c00;
@@ -57,7 +57,7 @@ body{
     box-shadow: 0 0 0.5vw #32cd32, 0 0 10px #32cd32, 0 0 15px #32cd32;
 }
 
-.btn-mudar:hover, .btn-mudar-1:hover, .btn-mudar-2:hover, .btn-mudar-3:hover, .btn-mudar-4:hover, .btn-mudar-5:hover, .btn-mudar-6:hover, .btn-mudar-7:hover, .btn-mudar-8:hover, .btn-mudar-9:hover, .btn-mudar-10:hover{
+.btn-mudar:hover, .btn-mudar-1:hover, .btn-mudar-2:hover, .btn-mudar-3:hover, .btn-mudar-4:hover, .btn-mudar-5:hover, .btn-mudar-6:hover, .btn-mudar-7:hover, .btn-mudar-8:hover, .btn-mudar-9:hover, .btn-mudar-10:hover {
     transform: scale(1.1);
     box-shadow: 0 0 10px #ff8c00, 0 0 20px #ff8c00, 0 0 30px #ff8c00; 
 }
@@ -67,71 +67,22 @@ body{
     box-shadow: 0 0 10px #32cd32, 0 0 20px #32cd32, 0 0 30px #32cd32; 
 }
 
-.btn-mudar-1, .btn-mudar-2, .btn-mudar-3, .btn-mudar-4, .btn-mudar-5, .btn-mudar-6, .btn-mudar-7, .btn-mudar-8, .btn-mudar-9, .btn-mudar-10{
+.btn-mudar-1, .btn-mudar-2, .btn-mudar-3, .btn-mudar-4, .btn-mudar-5, .btn-mudar-6, .btn-mudar-7, .btn-mudar-8, .btn-mudar-9, .btn-mudar-10 {
     display: none;
 }
 
-.btn-mudar-1{
-    position: absolute;
-    top: 60vh;
-    left: 70vw;
-}
+.btn-mudar-1 { position: absolute; top: 60vh; left: 70vw; }
+.btn-mudar-2 { position: absolute; top: 65vh; left: 7vw; }
+.btn-mudar-3 { position: absolute; top: 20vh; left: 40vw; }
+.btn-mudar-4 { position: absolute; top: 25vh; left: 10vw; }
+.btn-mudar-5 { position: absolute; top: 10vh; left: 80vw; }
+.btn-mudar-6 { position: absolute; top: 75vh; left: 50vw; }
+.btn-mudar-7 { position: absolute; top: 5vh; left: 5vw; }
+.btn-mudar-8 { position: absolute; top: 85vh; left: 80vw; }
+.btn-mudar-9 { position: absolute; top: 5vh; left: 62vw; }
+.btn-mudar-10 { position: absolute; top: 80vh; left: 25vw; }
 
-.btn-mudar-2{
-    position: absolute;
-    top: 65vh;
-    left: 7vw;
-}
-
-.btn-mudar-3{
-    position: absolute;
-    top: 20vh;
-    left: 40vw;
-}
-
-.btn-mudar-4{
-    position: absolute;
-    top: 25vh;
-    left: 10vw;
-}
-
-.btn-mudar-5{
-    position: absolute;
-    top: 10vh;
-    left: 80vw;
-}
-
-.btn-mudar-6{
-    position: absolute;
-    top: 75vh;
-    left: 50vw;
-}
-
-.btn-mudar-7{
-    position: absolute;
-    top: 5vh;
-    left: 5vw;
-}
-
-.btn-mudar-8{
-    position: absolute;
-    top: 85vh;
-    left: 80vw;
-}
-
-.btn-mudar-9{
-    position: absolute;
-    top: 5vh;
-    left: 62vw;
-}
-
-.btn-mudar-10{
-    position: absolute;
-    top: 80vh;
-    left: 25vw;
-}
-
-.mensagem-final{
+.mensagem-final {
     display: none;
     color: white;
     flex-direction: column;
@@ -144,7 +95,7 @@ body{
     padding: 3vw;
 }
 
-.img-luffy-feliz{
+.img-luffy-feliz {
     width: 20vw;
 }
 
@@ -165,13 +116,6 @@ body{
     background-color: black;
     border: 0.2vw solid #32cd32; /* Verde */
     color: white;
-    padding: 1vw 2.5vw;
-    font-size: 2vw;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    text-align: center;
-    border-radius: 0.5vw;
-    box-shadow: 0 0 0.5vw #32cd32, 0 0 10px #32cd32, 0 0 15px #32cd32;
     padding: 4vw;
     border-radius: 10px;
     text-align: center;
@@ -184,7 +128,7 @@ body{
     margin-bottom: 2vw;
 }
 
-.popup-content p{
+.popup-content p {
     font-size: 2vw;
 }
 
@@ -194,4 +138,104 @@ body{
     right: 1.5vw;
     font-size: 3vw;
     cursor: pointer;
+}
+
+/* Media Queries para responsividade */
+@media (max-width: 1200px) {
+    .title {
+        font-size: 4vw;
+        text-align: center;
+        margin-bottom: 10vw;
+    }
+
+    .btn-mudar, .btn-estatico {
+        font-size: 3vw;
+        padding: 1.5vw 3vw;
+    }
+
+    .mensagem-final {
+        font-size: 3vw;
+        padding: 5vw;
+    }
+
+    .img-luffy-feliz {
+        width: 25vw;
+    }
+
+    .popup-content {
+        padding: 3vw;
+    }
+
+    .popup-content p {
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 5vw;
+    }
+
+    .btn-mudar-1 { position: absolute; top: 80vh; left: 55vw; }
+    .btn-mudar-5 { position: absolute; top: 10vh; left: 55vw; }
+    .btn-mudar-8 { position: absolute; top: 85vh; left: 55vw; }
+    .btn-mudar-9 { position: absolute; top: 5vh; left: 52vw; }
+
+    .btn-mudar, .btn-estatico, .btn-mudar-1, .btn-mudar-2, .btn-mudar-3, .btn-mudar-4, .btn-mudar-5, .btn-mudar-6, .btn-mudar-7, .btn-mudar-8, .btn-mudar-9, .btn-mudar-10 {
+        font-size: 4vw;
+        padding: 2vw 4vw;
+    }
+
+    .mensagem-final {
+        font-size: 4vw;
+        padding: 6vw;
+    }
+
+    .img-luffy-feliz {
+        width: 30vw;
+    }
+
+    .popup-content {
+        padding: 2vw;
+    }
+
+    .popup-content p {
+        font-size: 4vw;
+    }
+
+    .close-btn {
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 6vw;
+    }
+
+    .btn-mudar, .btn-estatico, .btn-mudar-1, .btn-mudar-2, .btn-mudar-3, .btn-mudar-4, .btn-mudar-5, .btn-mudar-6, .btn-mudar-7, .btn-mudar-8, .btn-mudar-9, .btn-mudar-10 {
+        font-size: 5vw;
+        padding: 2.5vw 5vw;
+    }
+
+    .mensagem-final {
+        font-size: 5vw;
+        padding: 7vw;
+    }
+
+    .img-luffy-feliz {
+        width: 35vw;
+    }
+
+    .popup-content {
+        padding: 5vw;
+    }
+
+    .popup-content p {
+        font-size: 5vw;
+    }
+
+    .close-btn {
+        font-size: 5vw;
+    }
 }
